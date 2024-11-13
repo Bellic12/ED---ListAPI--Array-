@@ -33,7 +33,7 @@ for i, funcion in enumerate(funciones):
     plt.plot(x, y_desplazado, label=funcion, linewidth=2, marker='o', color=colores(i))
 
 # Configurar etiquetas y título con tamaños de fuente más grandes
-plt.xlabel('tamaño de datos (n)', fontsize=14)
+plt.xlabel('tamaño del arreglo (n)', fontsize=14)
 plt.ylabel('Tiempo (microsegundos)', fontsize=14)
 plt.title('Tiempo de Ejecución de las Funciones de List', fontsize=16)
 
