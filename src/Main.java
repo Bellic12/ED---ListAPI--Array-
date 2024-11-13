@@ -27,7 +27,7 @@ public class Main {
             csvWriter.append("Funcion,n,Tiempo (microsegundos)\n");
 
             for (int n : ns) {
-                List lista = new List(n + 1);
+                List lista = new List(n);
 
                 // Inicializa la lista con valores secuenciales
                 for (int i = 0; i < n; i++) {
